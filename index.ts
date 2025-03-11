@@ -31,25 +31,46 @@ const ProductManeger = class {
   }
 };
 
-console.log("create new product");
-console.log(ProductManeger.get());
+// console.log("create new product");
+// console.log(ProductManeger.get());
 
-ProductManeger.create(createData);
+// ProductManeger.create(createData);
 
-console.log(ProductManeger.get());
+// console.log(ProductManeger.get());
+
+
+const test_data = {
+  id: 2,
+  name: "mahsulot2",
+  price: 100,
+  category: "category1",
+  description: "description",
+};
 
 console.log("update price prodyct");
-console.log(ProductManeger.getById(2));
+
+console.log(test_data);
+
 ProductManeger.updatePrice({ id: 2, price: 1 });
+
 console.log(ProductManeger.getById(2));
 
-console.log("get by id product");
-console.log(ProductManeger.getById(1));
 
-console.log("get all product");
-console.log(ProductManeger.get());
+// console.log("update price prodyct");
 
-console.log(" delete product");
-console.log(ProductManeger.getById(1));
-ProductManeger.delete(1);
-console.log(ProductManeger.getById(1));
+// console.log(ProductManeger.getById(2));
+
+// ProductManeger.updatePrice({ id: 2, price: 1 });
+
+// console.log(ProductManeger.getById(2));
+
+// console.log("get by id product");
+// console.log(ProductManeger.getById(1));
+
+// console.log("get all product");
+// console.log(ProductManeger.get());
+
+// console.log(" delete product");
+// console.log(ProductManeger.getById(1));
+// ProductManeger.delete(1);
+// console.log(ProductManeger.getById(1));
