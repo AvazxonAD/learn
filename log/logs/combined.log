@@ -1,0 +1,637 @@
+{"level":"info","message":"{\"requestId\":\"263726cf-2279-4e26-ba6e-4ac8c2bd89d2\",\"method\":\"POST\",\"url\":\"/test-post\",\"body\":{\"users\":[{\"id\":1,\"name\":\"Ali\",\"email\":\"ali@example.com\",\"age\":25,\"isActive\":true},{\"id\":2,\"name\":\"Sara\",\"email\":\"sara@example.com\",\"age\":30,\"isActive\":false}]},\"query\":{},\"headers\":{\"content-type\":\"application/json\",\"user-agent\":\"PostmanRuntime/7.37.3\",\"accept\":\"*/*\",\"postman-token\":\"dca05f5e-6b09-40c2-9451-29ba402956d8\",\"host\":\"localhost:3000\",\"accept-encoding\":\"gzip, deflate, br\",\"connection\":\"keep-alive\",\"content-length\":\"287\",\"cookie\":\"i18next=uz\"},\"status\":200,\"responseTime\":1}","meta":{"req":{"headers":{"accept":"*/*","accept-encoding":"gzip, deflate, br","connection":"keep-alive","content-length":"287","content-type":"application/json","cookie":"i18next=uz","host":"localhost:3000","postman-token":"dca05f5e-6b09-40c2-9451-29ba402956d8","user-agent":"PostmanRuntime/7.37.3"},"httpVersion":"1.1","method":"POST","originalUrl":"/test-post","query":{},"url":"/test-post"},"requestId":"263726cf-2279-4e26-ba6e-4ac8c2bd89d2","res":{"statusCode":200},"responseTime":1},"service":"backend-service","timestamp":"2025-11-12T10:12:44.802Z"}
+{
+  meta: {
+    req: {
+      url: '/test-post',
+      headers: {
+        'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.37.3',
+        accept: '*/*',
+        'postman-token': '76912c1a-5f8c-4147-95c7-b3dfd99d5f4a',
+        host: 'localhost:3000',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '287',
+        cookie: 'i18next=uz'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/test-post',
+      query: [Object: null prototype] {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 1,
+    requestId: '10fbd1c6-e0cc-447a-9ffc-f389a5700661',
+    method: 'POST',
+    url: '/test-post',
+    body: {
+      users: [
+        {
+          id: 1,
+          name: 'Ali',
+          email: 'ali@example.com',
+          age: 25,
+          isActive: true
+        },
+        {
+          id: 2,
+          name: 'Sara',
+          email: 'sara@example.com',
+          age: 30,
+          isActive: false
+        }
+      ]
+    },
+    query: [Object: null prototype] {},
+    headers: {
+      'content-type': 'application/json',
+      'user-agent': 'PostmanRuntime/7.37.3',
+      host: 'localhost:3000'
+    },
+    status: 200
+  },
+  level: 'info',
+  message: 'HTTP POST /test-post',
+  service: 'backend-service',
+  timestamp: '2025-11-12T11:06:24.929Z'
+}
+{
+  meta: {
+    req: {
+      url: '/test-post',
+      headers: {
+        'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.37.3',
+        accept: '*/*',
+        'postman-token': '53f1f7f4-af55-4790-8069-50218f2b7bb7',
+        host: 'localhost:3000',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '287',
+        cookie: 'i18next=uz'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/test-post',
+      query: [Object: null prototype] {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 0,
+    requestId: '2d4c0757-8fff-443f-afe4-1c9fae30abad',
+    method: 'POST',
+    url: '/test-post',
+    body: {
+      users: [
+        {
+          id: 1,
+          name: 'Ali',
+          email: 'ali@example.com',
+          age: 25,
+          isActive: true
+        },
+        {
+          id: 2,
+          name: 'Sara',
+          email: 'sara@example.com',
+          age: 30,
+          isActive: false
+        }
+      ]
+    },
+    query: [Object: null prototype] {},
+    headers: {
+      'content-type': 'application/json',
+      'user-agent': 'PostmanRuntime/7.37.3',
+      host: 'localhost:3000'
+    },
+    status: 200
+  },
+  level: 'info',
+  message: 'HTTP POST /test-post',
+  service: 'backend-service',
+  timestamp: '2025-11-12T11:07:00.501Z'
+}
+{
+  meta: {
+    req: {
+      url: '/test-post',
+      headers: {
+        'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.37.3',
+        accept: '*/*',
+        'postman-token': '28c8cd7e-c682-41f2-bde1-617ab5dbf9f5',
+        host: 'localhost:3000',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '287',
+        cookie: 'i18next=uz'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/test-post',
+      query: [Object: null prototype] {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 1,
+    requestId: '32623321-8068-4798-bdcd-82747a07b2b8',
+    method: 'POST',
+    url: '/test-post',
+    body: {
+      users: [
+        {
+          id: 1,
+          name: 'Ali',
+          email: 'ali@example.com',
+          age: 25,
+          isActive: true
+        },
+        {
+          id: 2,
+          name: 'Sara',
+          email: 'sara@example.com',
+          age: 30,
+          isActive: false
+        }
+      ]
+    },
+    query: [Object: null prototype] {},
+    headers: {
+      'content-type': 'application/json',
+      'user-agent': 'PostmanRuntime/7.37.3',
+      host: 'localhost:3000'
+    },
+    status: 200
+  },
+  level: 'info',
+  message: 'HTTP POST /test-post',
+  service: 'backend-service',
+  timestamp: '2025-11-12T11:07:01.247Z'
+}
+{
+  meta: {
+    req: {
+      url: '/test-post',
+      headers: {
+        'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.37.3',
+        accept: '*/*',
+        'postman-token': '372854a6-59a4-455e-bb60-f6a7cdbddbf4',
+        host: 'localhost:3000',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '287',
+        cookie: 'i18next=uz'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/test-post',
+      query: [Object: null prototype] {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 0,
+    requestId: '807392f6-2047-44e6-aec4-5d605b469d03',
+    method: 'POST',
+    url: '/test-post',
+    body: {
+      users: [
+        {
+          id: 1,
+          name: 'Ali',
+          email: 'ali@example.com',
+          age: 25,
+          isActive: true
+        },
+        {
+          id: 2,
+          name: 'Sara',
+          email: 'sara@example.com',
+          age: 30,
+          isActive: false
+        }
+      ]
+    },
+    query: [Object: null prototype] {},
+    headers: {
+      'content-type': 'application/json',
+      'user-agent': 'PostmanRuntime/7.37.3',
+      host: 'localhost:3000'
+    },
+    status: 200
+  },
+  level: 'info',
+  message: 'HTTP POST /test-post',
+  service: 'backend-service',
+  timestamp: '2025-11-12T11:07:01.959Z'
+}
+{
+  meta: {
+    req: {
+      url: '/test-post',
+      headers: {
+        'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.37.3',
+        accept: '*/*',
+        'postman-token': '7a2bae05-aab4-4f0b-9f4e-551ae1df0d90',
+        host: 'localhost:3000',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '287',
+        cookie: 'i18next=uz'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/test-post',
+      query: [Object: null prototype] {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 0,
+    requestId: '067b52bc-4442-40f6-a5b1-640c166f995c',
+    method: 'POST',
+    url: '/test-post',
+    body: {
+      users: [
+        {
+          id: 1,
+          name: 'Ali',
+          email: 'ali@example.com',
+          age: 25,
+          isActive: true
+        },
+        {
+          id: 2,
+          name: 'Sara',
+          email: 'sara@example.com',
+          age: 30,
+          isActive: false
+        }
+      ]
+    },
+    query: [Object: null prototype] {},
+    headers: {
+      'content-type': 'application/json',
+      'user-agent': 'PostmanRuntime/7.37.3',
+      host: 'localhost:3000'
+    },
+    status: 200
+  },
+  level: 'info',
+  message: 'HTTP POST /test-post',
+  service: 'backend-service',
+  timestamp: '2025-11-12T11:07:02.606Z'
+}
+{
+  meta: {
+    req: {
+      url: '/test-post',
+      headers: {
+        'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.37.3',
+        accept: '*/*',
+        'postman-token': '26ab23ce-c5fb-4cc3-86d5-0041d3d42a62',
+        host: 'localhost:3000',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '287',
+        cookie: 'i18next=uz'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/test-post',
+      query: [Object: null prototype] {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 0,
+    requestId: '6dc5a827-72b2-4a0b-8bf4-5407f31e16c0',
+    method: 'POST',
+    url: '/test-post',
+    body: {
+      users: [
+        {
+          id: 1,
+          name: 'Ali',
+          email: 'ali@example.com',
+          age: 25,
+          isActive: true
+        },
+        {
+          id: 2,
+          name: 'Sara',
+          email: 'sara@example.com',
+          age: 30,
+          isActive: false
+        }
+      ]
+    },
+    query: [Object: null prototype] {},
+    headers: {
+      'content-type': 'application/json',
+      'user-agent': 'PostmanRuntime/7.37.3',
+      host: 'localhost:3000'
+    },
+    status: 200
+  },
+  level: 'info',
+  message: 'HTTP POST /test-post',
+  service: 'backend-service',
+  timestamp: '2025-11-12T11:07:03.135Z'
+}
+{
+  meta: {
+    req: {
+      url: '/test-post',
+      headers: {
+        'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.37.3',
+        accept: '*/*',
+        'postman-token': 'dfdcba43-54fc-4a86-b920-272a32cc684d',
+        host: 'localhost:3000',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '287',
+        cookie: 'i18next=uz'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/test-post',
+      query: [Object: null prototype] {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 0,
+    requestId: '3bb671df-6e99-46a6-8f42-47949e43d3a2',
+    method: 'POST',
+    url: '/test-post',
+    body: {
+      users: [
+        {
+          id: 1,
+          name: 'Ali',
+          email: 'ali@example.com',
+          age: 25,
+          isActive: true
+        },
+        {
+          id: 2,
+          name: 'Sara',
+          email: 'sara@example.com',
+          age: 30,
+          isActive: false
+        }
+      ]
+    },
+    query: [Object: null prototype] {},
+    headers: {
+      'content-type': 'application/json',
+      'user-agent': 'PostmanRuntime/7.37.3',
+      host: 'localhost:3000'
+    },
+    status: 200
+  },
+  level: 'info',
+  message: 'HTTP POST /test-post',
+  service: 'backend-service',
+  timestamp: '2025-11-12T11:07:03.870Z'
+}
+{
+  meta: {
+    req: {
+      url: '/test-post',
+      headers: {
+        'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.37.3',
+        accept: '*/*',
+        'postman-token': '6032dc56-c824-4050-8946-97a955dd8032',
+        host: 'localhost:3000',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '287',
+        cookie: 'i18next=uz'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/test-post',
+      query: [Object: null prototype] {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 0,
+    requestId: 'a0d510b8-a549-45df-a83c-77a0fd8fd163',
+    method: 'POST',
+    url: '/test-post',
+    body: {
+      users: [
+        {
+          id: 1,
+          name: 'Ali',
+          email: 'ali@example.com',
+          age: 25,
+          isActive: true
+        },
+        {
+          id: 2,
+          name: 'Sara',
+          email: 'sara@example.com',
+          age: 30,
+          isActive: false
+        }
+      ]
+    },
+    query: [Object: null prototype] {},
+    headers: {
+      'content-type': 'application/json',
+      'user-agent': 'PostmanRuntime/7.37.3',
+      host: 'localhost:3000'
+    },
+    status: 200
+  },
+  level: 'info',
+  message: 'HTTP POST /test-post',
+  service: 'backend-service',
+  timestamp: '2025-11-12T11:07:04.575Z'
+}
+{
+  meta: {
+    req: {
+      url: '/test-post',
+      headers: {
+        'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.37.3',
+        accept: '*/*',
+        'postman-token': 'a4dcef15-9b1b-4da5-9386-0c6e607bd667',
+        host: 'localhost:3000',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '287',
+        cookie: 'i18next=uz'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/test-post',
+      query: [Object: null prototype] {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 1,
+    requestId: '45c268fa-56fc-4115-8f38-f7d4d1193ead',
+    method: 'POST',
+    url: '/test-post',
+    body: {
+      users: [
+        {
+          id: 1,
+          name: 'Ali',
+          email: 'ali@example.com',
+          age: 25,
+          isActive: true
+        },
+        {
+          id: 2,
+          name: 'Sara',
+          email: 'sara@example.com',
+          age: 30,
+          isActive: false
+        }
+      ]
+    },
+    query: [Object: null prototype] {},
+    headers: {
+      'content-type': 'application/json',
+      'user-agent': 'PostmanRuntime/7.37.3',
+      host: 'localhost:3000'
+    },
+    status: 200
+  },
+  level: 'info',
+  message: 'HTTP POST /test-post',
+  service: 'backend-service',
+  timestamp: '2025-11-12T11:07:05.191Z'
+}
+{
+  meta: {
+    req: {
+      url: '/test-post',
+      headers: {
+        'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.37.3',
+        accept: '*/*',
+        'postman-token': 'e0921125-5f7a-4dc2-bc8a-53ed4a07599d',
+        host: 'localhost:3000',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive',
+        'content-length': '287',
+        cookie: 'i18next=uz'
+      },
+      method: 'POST',
+      httpVersion: '1.1',
+      originalUrl: '/test-post',
+      query: [Object: null prototype] {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 1,
+    requestId: '2d32584a-d195-47bd-baa7-bb552304431f',
+    method: 'POST',
+    url: '/test-post',
+    body: {
+      users: [
+        {
+          id: 1,
+          name: 'Ali',
+          email: 'ali@example.com',
+          age: 25,
+          isActive: true
+        },
+        {
+          id: 2,
+          name: 'Sara',
+          email: 'sara@example.com',
+          age: 30,
+          isActive: false
+        }
+      ]
+    },
+    query: [Object: null prototype] {},
+    headers: {
+      'content-type': 'application/json',
+      'user-agent': 'PostmanRuntime/7.37.3',
+      host: 'localhost:3000'
+    },
+    status: 200
+  },
+  level: 'info',
+  message: 'HTTP POST /test-post',
+  service: 'backend-service',
+  timestamp: '2025-11-12T11:07:06.000Z'
+}
+{
+  requestId: undefined,
+  message: 'request entity too large',
+  stack: 'PayloadTooLargeError: request entity too large\n' +
+    '    at readStream (D:\\projects\\learn\\log\\node_modules\\raw-body\\index.js:163:17)\n' +
+    '    at getRawBody (D:\\projects\\learn\\log\\node_modules\\raw-body\\index.js:116:12)\n' +
+    '    at read (D:\\projects\\learn\\log\\node_modules\\body-parser\\lib\\read.js:74:3)\n' +
+    '    at jsonParser (D:\\projects\\learn\\log\\node_modules\\body-parser\\lib\\types\\json.js:125:5)\n' +
+    '    at Layer.handleRequest (D:\\projects\\learn\\log\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+    '    at trimPrefix (D:\\projects\\learn\\log\\node_modules\\router\\index.js:342:13)\n' +
+    '    at D:\\projects\\learn\\log\\node_modules\\router\\index.js:297:9\n' +
+    '    at processParams (D:\\projects\\learn\\log\\node_modules\\router\\index.js:582:12)\n' +
+    '    at next (D:\\projects\\learn\\log\\node_modules\\router\\index.js:291:5)\n' +
+    '    at Function.handle (D:\\projects\\learn\\log\\node_modules\\router\\index.js:186:3)',
+  status: 413,
+  level: 'error',
+  service: 'backend-service',
+  timestamp: '2025-11-12T11:12:16.991Z'
+}
+{
+  requestId: undefined,
+  message: 'request entity too large',
+  stack: 'PayloadTooLargeError: request entity too large\n' +
+    '    at readStream (D:\\projects\\learn\\log\\node_modules\\raw-body\\index.js:163:17)\n' +
+    '    at getRawBody (D:\\projects\\learn\\log\\node_modules\\raw-body\\index.js:116:12)\n' +
+    '    at read (D:\\projects\\learn\\log\\node_modules\\body-parser\\lib\\read.js:74:3)\n' +
+    '    at jsonParser (D:\\projects\\learn\\log\\node_modules\\body-parser\\lib\\types\\json.js:125:5)\n' +
+    '    at Layer.handleRequest (D:\\projects\\learn\\log\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+    '    at trimPrefix (D:\\projects\\learn\\log\\node_modules\\router\\index.js:342:13)\n' +
+    '    at D:\\projects\\learn\\log\\node_modules\\router\\index.js:297:9\n' +
+    '    at processParams (D:\\projects\\learn\\log\\node_modules\\router\\index.js:582:12)\n' +
+    '    at next (D:\\projects\\learn\\log\\node_modules\\router\\index.js:291:5)\n' +
+    '    at Function.handle (D:\\projects\\learn\\log\\node_modules\\router\\index.js:186:3)',
+  status: 413,
+  level: 'error',
+  service: 'backend-service',
+  timestamp: '2025-11-12T11:12:16.991Z'
+}
+{
+  requestId: undefined,
+  message: 'request entity too large',
+  stack: 'PayloadTooLargeError: request entity too large\n' +
+    '    at readStream (D:\\projects\\learn\\log\\node_modules\\raw-body\\index.js:163:17)\n' +
+    '    at getRawBody (D:\\projects\\learn\\log\\node_modules\\raw-body\\index.js:116:12)\n' +
+    '    at read (D:\\projects\\learn\\log\\node_modules\\body-parser\\lib\\read.js:74:3)\n' +
+    '    at jsonParser (D:\\projects\\learn\\log\\node_modules\\body-parser\\lib\\types\\json.js:125:5)\n' +
+    '    at Layer.handleRequest (D:\\projects\\learn\\log\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+    '    at trimPrefix (D:\\projects\\learn\\log\\node_modules\\router\\index.js:342:13)\n' +
+    '    at D:\\projects\\learn\\log\\node_modules\\router\\index.js:297:9\n' +
+    '    at processParams (D:\\projects\\learn\\log\\node_modules\\router\\index.js:582:12)\n' +
+    '    at next (D:\\projects\\learn\\log\\node_modules\\router\\index.js:291:5)\n' +
+    '    at Function.handle (D:\\projects\\learn\\log\\node_modules\\router\\index.js:186:3)',
+  status: 413,
+  level: 'error',
+  service: 'backend-service',
+  timestamp: '2025-11-12T11:12:44.746Z'
+}
+{
+  requestId: undefined,
+  message: 'request entity too large',
+  stack: 'PayloadTooLargeError: request entity too large\n' +
+    '    at readStream (D:\\projects\\learn\\log\\node_modules\\raw-body\\index.js:163:17)\n' +
+    '    at getRawBody (D:\\projects\\learn\\log\\node_modules\\raw-body\\index.js:116:12)\n' +
+    '    at read (D:\\projects\\learn\\log\\node_modules\\body-parser\\lib\\read.js:74:3)\n' +
+    '    at jsonParser (D:\\projects\\learn\\log\\node_modules\\body-parser\\lib\\types\\json.js:125:5)\n' +
+    '    at Layer.handleRequest (D:\\projects\\learn\\log\\node_modules\\router\\lib\\layer.js:152:17)\n' +
+    '    at trimPrefix (D:\\projects\\learn\\log\\node_modules\\router\\index.js:342:13)\n' +
+    '    at D:\\projects\\learn\\log\\node_modules\\router\\index.js:297:9\n' +
+    '    at processParams (D:\\projects\\learn\\log\\node_modules\\router\\index.js:582:12)\n' +
+    '    at next (D:\\projects\\learn\\log\\node_modules\\router\\index.js:291:5)\n' +
+    '    at Function.handle (D:\\projects\\learn\\log\\node_modules\\router\\index.js:186:3)',
+  status: 413,
+  level: 'error',
+  service: 'backend-service',
+  timestamp: '2025-11-12T11:12:44.746Z'
+}
