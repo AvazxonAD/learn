@@ -1,0 +1,20 @@
+{
+  requestId: 'b9e472ba-6cea-4520-8a22-086799f80da2',
+  method: 'GET',
+  url: '/test-get',
+  responseStatus: 200,
+  headers: [Object: null prototype] { 'x-powered-by': 'Express' },
+  data: { message: 'ok', requestId: 'b9e472ba-6cea-4520-8a22-086799f80da2' },
+  level: 'response',
+  timestamp: '2025-11-19T10:02:24.907Z'
+}
+{
+  requestId: '757bc7b0-80a3-47e0-83ae-a8ca58960328',
+  method: 'POST',
+  url: '/test-post?test=test&test2=test2',
+  responseStatus: 200,
+  headers: [Object: null prototype] { 'x-powered-by': 'Express' },
+  data: { message: 'ok', requestId: '757bc7b0-80a3-47e0-83ae-a8ca58960328' },
+  level: 'response',
+  timestamp: '2025-11-19T10:02:54.520Z'
+}

@@ -1,20 +1,22 @@
 const express = require("express");
-const { assignRequestId, requestLogger } = require("./middleware/logger");
+const { assignRequestId, requestLogger, responseLogger, errorLogger } = require("./middleware/logger");
 const errorHandler = require("./middleware/errorHandler");
 const responseTime = require("./middleware/responseTime");
 
 const app = express();
-app.use(express.json());
+app.use(express.json({ limit: "100mb" }));
 app.use(responseTime);
 app.use(assignRequestId);
+app.use(responseLogger);
 app.use(requestLogger);
+app.use(errorLogger);
 
 app.get("/test-get", (req, res) => {
-  res.json({ message: "ok", requestId: req.requestId });
+  res.success({ message: "ok", requestId: req.requestId });
 });
 
 app.post("/test-post", (req, res) => {
-  res.json({ message: "ok", requestId: req.requestId });
+  res.success({ message: "ok", requestId: req.requestId });
 });
 
 app.use(errorHandler);
