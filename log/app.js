@@ -1,7 +1,7 @@
 const express = require("express");
-const { assignRequestId, requestLogger, responseLogger, errorLogger } = require("./middleware/logger");
 const errorHandler = require("./middleware/errorHandler");
 const responseTime = require("./middleware/responseTime");
+const { assignRequestId, requestLogger, responseLogger, errorLogger } = require("./middleware/logger");
 
 const app = express();
 app.use(express.json({ limit: "100mb" }));

@@ -1,23 +1,37 @@
-import { useEffect, useState } from "react"
-import { Link, Outlet, useLocation, useParams } from "react-router-dom"
+import { connect } from "react-redux";
+import type { ConnectedProps } from 'react-redux'
+import type { RootState } from "../redux/store";
+import { setUser } from "../redux/actions";
+import { useEffect } from "react";
 
-const ProfilePage = () => {
-    return (
-        <>
-            <h2>User Profile</h2>
-            <ul>
-                <li>
-                    <Link to={'settings'} > Profile settings</Link >
-                </li>
+type ReduxProps = ConnectedProps<typeof connector>;
 
-                <li>
-                    <Link to={'info'} > Profile info</Link >
-                </li>
-            </ul>
+type ComponentProps = {
+    isActive: boolean;
+};
 
-            <Outlet />
-        </>
-    )
+type Props = ReduxProps & ComponentProps;
+
+function Profile(props: Props) {
+    useEffect(() => {
+        setTimeout(() => {
+            props.setUser({
+                name: "Avazbek",
+                id: "132312",
+            })
+        }, 5000)
+    }, [])
+    return <h1>Profile</h1>
 }
 
-export default ProfilePage
+const mapStateToProps = (state: RootState) => ({
+    user: state.currentUser,
+});
+
+const mapDispatchToProps = {
+    setUser,
+};
+
+const connector = connect(mapStateToProps, mapDispatchToProps);
+
+export default connector(Profile);
